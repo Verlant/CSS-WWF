@@ -1,0 +1,12 @@
+main {
+  width: 98vw;
+  height: 98vh;
+  display: grid;
+  grid-template: 1fr / 1fr;
+}
+.bg_img {
+  grid-row: 1fr;
+  grid-column: 1fr;
+  background-image: url(partie1.png);
+  background-repeat: no-repeat;
+}
